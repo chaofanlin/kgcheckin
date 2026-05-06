@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   # push:
   schedule:
-    - cron: 30 01 * * *
+    - cron: 30 16 * * * #北京时间+8h
 jobs:
   run:
     runs-on: ubuntu-latest
